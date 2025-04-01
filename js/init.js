@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
 	window.addEventListener("load", function (){
 		setTimeout(function(){
 			jQuery('.arlo_tm_preloader').addClass('loaded');
-		}, 300);
+		}, 100);
         arlo_tm_isotope();
 	});
 	
